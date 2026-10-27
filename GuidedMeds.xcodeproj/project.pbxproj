@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -189,10 +189,11 @@
 				};
 			};
 			buildConfigurationList = 37D7F5A71A648B3F00788318 /* Build configuration list for PBXProject "GuidedMeds" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -368,6 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.russellEricDobda.GuidedMeds;
 				PRODUCT_NAME = GuidedMeds;
 				PROVISIONING_PROFILE = "";
@@ -388,6 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.russellEricDobda.GuidedMeds;
 				PRODUCT_NAME = GuidedMeds;
 				PROVISIONING_PROFILE = "";

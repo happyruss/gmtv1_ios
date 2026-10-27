@@ -106,6 +106,11 @@ NSString * queuedTrack;
     NSString *voiceFile = [audioFilenames objectAtIndex:3];
     NSString *isochronicFile = [audioFilenames objectAtIndex:4];
     
+//    doesnt work either
+//    NSData* binauralData = [NSData dataWithContentsOfURL:[NSURL fileURLWithPath:binauralFile]];
+//    AVAudioPlayer *binauralPlayer = [[AVAudioPlayer alloc] initWithData:binauralData error:nil];
+
+    
     AVAudioPlayer *binauralPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:binauralFile] error:nil];
     [soundsArray addObject:binauralPlayer];
     AVAudioPlayer *isochronicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:isochronicFile] error:nil];
